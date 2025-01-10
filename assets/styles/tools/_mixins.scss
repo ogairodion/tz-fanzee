@@ -1,0 +1,11 @@
+// Функции для работы с компонентнами
+@use 'sass:math';
+@use 'sass:list';
+
+@function to-rem($pxs...) {
+  $rem-values: ();
+  @each $px in $pxs {
+    $rem-values: list.append($rem-values, math.div($px, 16) + rem);
+  }
+  @return $rem-values;
+}

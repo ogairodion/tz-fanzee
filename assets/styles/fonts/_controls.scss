@@ -1,0 +1,32 @@
+// fonts classes
+.f {
+  &-h1 {
+    font-size: to-rem(32);
+    line-height: to-rem(37);
+  }
+
+  &-h2 {
+    font-size: to-rem(28);
+    line-height: to-rem(32);
+  }
+
+  &-h3 {
+    font-size: to-rem(24);
+    line-height: to-rem(28);
+  }
+
+  &-h4 {
+    font-size: to-rem(20);
+    line-height: to-rem(23);
+  }
+
+  &-h5 {
+    font-size: to-rem(18);
+    line-height: to-rem(21);
+  }
+
+  &-h6 {
+    font-size: to-rem(16);
+    line-height: to-rem(18);
+  }
+}
